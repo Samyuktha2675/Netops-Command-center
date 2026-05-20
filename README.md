@@ -46,7 +46,7 @@ netops-command-center/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/netops-command-center.git
+git clone (https://github.com/Samyuktha2675/Netops-Command-center)
 
 cd netops-command-center
 
@@ -61,9 +61,7 @@ streamlit run app.py
 3. Create a new app
 4. Select repository
 5. Set main file path:
-
-```text
-app.py
+6. Deploy
 
 ## 📊 Example Diagnostics
 DNS Resolution
