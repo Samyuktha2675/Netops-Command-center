@@ -1,20 +1,57 @@
 # 📡 NetOps Command Center
 
-Professional network monitoring, diagnostics, and incident automation dashboard built with Streamlit and Python.
+A professional network monitoring and incident diagnostics platform built using Python and Streamlit for real-time infrastructure visibility, observability, and automated network diagnostics.
+
+Designed as a portfolio-ready project for cloud, DevOps, SRE, and software engineering demonstrations, the platform helps monitor website health, validate DNS resolution, analyze network connectivity, detect incidents, and perform port diagnostics.
+
+---
+## 🌐 Live Application
+
+🔗 **Streamlit App:**  
+https://netops-command-center-enmxuczvdjnvb6e2zyvowk.streamlit.app/
 
 ---
 
-## 🚀 Features
+## 🌍 Deployment on Streamlit
 
-- 🌐 Website availability monitoring
-- 📡 DNS resolution diagnostics
-- 🔍 Port scanning and connectivity checks
-- 🚨 Incident severity detection (P1/P2/P3)
-- 📊 Network health dashboard
-- 📑 RCA (Root Cause Analysis) report generation
-- 📤 Export diagnostics reports
-- ⚡ Real-time monitoring interface using Streamlit
-- 🖥️ GitHub-ready professional UI
+1. Push the project to GitHub
+2. Open Streamlit Community Cloud
+3. Create a new application
+4. Select the repository
+5. Set the main file path:
+
+```text
+app.py
+
+## 🚀 Project Overview
+
+NetOps Command Center simulates a lightweight Network Operations Center (NOC) dashboard that enables proactive monitoring and troubleshooting of network systems.
+
+The application provides:
+
+- Real-time website availability monitoring
+- DNS resolution diagnostics
+- Port connectivity analysis
+- Incident detection with severity classification
+- Root Cause Analysis (RCA) reporting
+- Exportable diagnostics and monitoring insights
+- Live infrastructure observability dashboard
+
+---
+
+## 🎯 Why This Project?
+
+Modern organizations rely on monitoring, observability, and automation to maintain highly available systems.
+
+This project demonstrates practical skills in:
+
+- Network diagnostics
+- DevOps monitoring concepts
+- Reliability engineering workflows
+- Infrastructure observability
+- Incident analysis and troubleshooting
+- Python-based automation
+- Dashboard development with Streamlit
 
 ---
 
@@ -30,75 +67,18 @@ Professional network monitoring, diagnostics, and incident automation dashboard 
 
 ---
 
-## 📂 Project Structure
+## 🌍 Real-World Use Cases
 
-```bash
-netops-command-center/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-└── .vscode/
+- Infrastructure monitoring
+- Site reliability engineering (SRE)
+- Network diagnostics automation
+- Incident detection and triage
+- DevOps portfolio demonstrations
+- Cloud operations monitoring
+- NOC (Network Operations Center) simulations
 
-## ⚙️ Installation
+---
 
-Clone the repository:
+## 👩‍💻 Author
 
-```bash
-git clone (https://github.com/Samyuktha2675/Netops-Command-center)
-
-cd netops-command-center
-
-pip install -r requirements.txt
-
-streamlit run app.py
-
-## 🌍 Deployment on Streamlit
-
-1. Push project to GitHub
-2. Open Streamlit Cloud
-3. Create a new app
-4. Select repository
-5. Set main file path:
-6. Deploy
-
-## 📊 Example Diagnostics
-DNS Resolution
-github.com → Resolved
-google.com → Resolved
-cloudflare.com → Resolved
-
-Port Scan Results
-| Port | Status |
-| ---- | ------ |
-| 22   | Open   |
-| 53   | Closed |
-| 80   | Open   |
-| 443  | Open   |
-| 8080 | Closed |
-
-## 🚨 Incident Severity Levels
-Severity	Meaning
-P1	Critical outage
-P2	Major issue
-P3	Minor issue
-
-## 📌 Use Cases
-DevOps monitoring demos
-Network diagnostics
-Cybersecurity lab projects
-Portfolio projects
-NOC dashboard simulation
-Infrastructure monitoring practice
-
-## 📈 Future Improvements
-AI-powered anomaly detection
-Email/SMS alerting
-Historical analytics
-Authentication system
-Live packet analysis
-Kubernetes monitoring integration
-
-👩‍💻 Author
-Samyuktha J
+**Samyuktha J**  
